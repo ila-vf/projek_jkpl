@@ -1,0 +1,30 @@
+# Laravel Specific
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/.phpunit.result.cache
+/.phpunit.cache
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Composer and NPM logs
+npm-debug.log
+yarn-error.log
+
+# IDE config files
+/.idea
+/.vscode
+
+# Homestead config files
+Homestead.json
+Homestead.yaml
+
+# Other temporary or sensitive files
+.DS_Store
+auth.json
